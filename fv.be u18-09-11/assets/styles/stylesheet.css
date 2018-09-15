@@ -1,0 +1,209 @@
+@charset "utf-8";
+/*CSS for FrankVonk.be*/
+
+.wrapper 
+.content {
+    width: 960px;
+    margin: 0 auto;
+}
+body {
+    background-image: url("../img/white-brick-wall-seamless-background-texture-photo-63006979.jpg");
+    width: 100%;
+}
+body, .nav {
+    font-family: garamond;
+    font-weight: bold;
+}
+
+p,h3, article{
+    color:#111111;
+}
+
+h1 {
+    text-align: center;
+}
+
+/*start of header*/
+.head {
+    font-size: 1.2em;
+    font-weight: bold;
+    font-stretch: expanded;
+    width: 460px;
+
+    margin: 0 auto;
+
+}
+.head p {
+    padding: 2px;
+    background-color: white;
+    opacity: 0.9;
+    text-align: center;
+}
+/*end of header*/
+/*start of nav bar*/
+nav {
+    width: 100%;
+    text-align: center;
+    background-color: darkturquoise;
+    max-width: 100%;
+    margin-bottom: 20px;
+    padding: 1px 0px 1px 0px;
+}
+nav li {
+    display: inline;
+    padding-left:20px;
+    padding-right: 20px; 
+}
+
+.nav a,footer {
+    color: white;
+    text-decoration: none;
+}
+
+/*end of navbar*/
+
+
+/*start asides*/
+.asideleft {
+    text-decoration: none;
+    text-align: left;
+    position: relative;
+    float: left;
+    width: 200px;
+    padding: 20px 0px 500px 20px;
+    background:deepskyblue;
+    text-align: center;
+}
+
+aside a {
+    padding: 20px;
+}
+aside p,{
+    color:aliceblue;
+    font-size: 20px;
+}
+
+.asideright {
+    position: relative;
+    float: right;
+    width: 200px;
+    background-color: paleturquoise;
+    padding: 20px 0px 400px 20px;
+    text-align: center;
+}
+.asideright img {
+    height: 40%;
+    width: 40%;
+    opacity: 0.7;
+}
+.asideright a,.asideleft a {    
+    text-decoration: none;
+}
+/*end asides*/
+
+article {
+    box-sizing: border-box;
+    position: relative;
+    float: inherit;
+    width: 460px;
+    border: 1px solid white;
+    margin: 10px auto;
+    background-color: white;
+    opacity: 0.9;
+    padding: 0px 10px;
+    text-align: left;
+    font-size: 80%;
+}
+
+/*start boerentoren*/
+.articleboerentoren {
+    height: 1150px;
+    opacity: 1;
+    background-image: none;
+    background-color:rgba(255,255,255,0.9);
+}
+.articleboerentoren p, .articleboerentoren h3{
+}
+.whitecollar {
+    width: 210px;
+    float: left;
+    text-align: center;
+}
+.whitecopy {
+    width: 210px;
+    float: right;
+}
+
+.articleboerentoren h3 {
+    text-align: center;
+}
+/*end boerentoren*/
+
+
+/*start primordial soup*/
+.article1 {
+    height: 200px;
+}
+/*end primordial soup*/
+
+
+
+/*start biography*/
+.article_bio {
+    height: 400px;
+}
+/*end biography*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.websites img {
+    padding-left: 72px;
+}
+
+/*start of images in portfolio*/
+.gallery {
+    margin-top: 20px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+  }
+  
+ .gallery-item {
+    margin: 20px;
+    padding: 20px 20px 20px 20px;
+}
+
+
+.gallery-item img:hover {
+    transform:scale(1.5);
+
+}
+
+
+/*end of images in portfolio*/
+
+/*start of footer*/
+footer {
+    background-color: darkturquoise;
+    max-width: 100%;
+    border: 100px;   
+    clear: both;
+    text-align: center;
+    font-size: 80%;
+}
+.copyright {
+    padding: 6px;
+}
+/*end of footer*/
