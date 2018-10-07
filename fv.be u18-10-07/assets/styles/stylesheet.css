@@ -1,0 +1,321 @@
+@charset "utf-8";
+/*CSS for FrankVonk.be*/
+
+/*html { 
+    overflow-x: hidden; }
+*/
+body {
+    background-image: url("../img/white-brick-wall-seamless-background-texture-photo-63006979.jpg");
+/*    min-width: 960px;*/
+/*99% because i wanted to remove horizontal scrolbars*/
+    width: 99%;
+    }
+
+html, body, .nav {
+    font-family: garamond;
+    font-family: "Special Elite";
+    font-weight: 600;
+    letter-spacing: 0.07em;
+}
+
+.wrapper 
+.content {
+    min-width: 960px;
+    width: 70%;
+    margin:0 auto;
+    overflow: visible;
+}
+
+p,h3, article{
+    color:#111111;
+}
+
+h1, h3{
+    text-align: center;
+}
+
+/*start of header*/
+.head {
+    font-size: 1.2em;
+    font-weight: bold;
+    font-stretch: expanded;
+    width: 460px;
+    background-color: white;
+    opacity: 0.9;
+/*    padding-top: 0.01px;*/
+    margin: 0 auto;
+
+}
+.head p {
+    padding: 2px;
+    background-color: white;
+    opacity: 0.9;
+    text-align: center;
+}
+/*end of header*/
+/*start of nav bar*/
+nav {
+    width: 100%;
+    text-align: center;
+    background-color: darkturquoise;
+    max-width: 100%;
+    padding: 1px 0px 1px 0px;
+    margin-bottom: 20px;
+}
+nav li {
+    display: inline;
+    padding-left:20px;
+    padding-right: 20px; 
+}
+
+.nav a,footer {
+    color: white;
+    text-decoration: none;
+}
+
+/*end of navbar*/
+
+
+/*start asides*/
+.asideleft {
+    text-decoration: none;
+    text-align: left;
+    position: relative;
+    float: left;
+    width: 200px;
+    padding: 20px 0px 500px 20px;
+    margin-bottom: 20px;
+    background:deepskyblue;
+    text-align: center;
+}
+
+aside a {
+    padding: 20px;
+}
+aside p,{
+    color:aliceblue;
+    font-size: 20px;
+}
+
+.asideright {
+    position: relative;
+    float: right;
+    width: 200px;
+    background-color: paleturquoise;
+    padding: 20px 0px 400px 20px;
+    text-align: center;
+}
+.asideright img {
+    height: 40%;
+    width: 40%;
+    opacity: 0.7;
+}
+.asideright a,.asideleft a {    
+    text-decoration: none;
+}
+/*end asides*/
+
+article {
+    box-sizing: border-box;
+    position: relative;
+    float: inherit;
+    height: fit-content;
+    width: 460px;
+    border: 1px solid white;
+    margin: 10px auto;
+    background-color: white;
+    opacity: 0.9;
+    padding: 0px 10px;
+    text-align: left;
+    font-size: 80%;
+}
+
+/*start sierra miller*/
+.articlesierramiller {
+    height: fit-content;
+    min-height: 0px;
+    opacity: 1;
+    background-color:rgba(255,255,255,0.9);
+}
+.articlesierramiller img:hover{
+    transform:scale(1.2);
+    transition-duration: 3s;
+}
+.sierrapaint {
+    height: 260px;
+    width: 215px;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+}
+.sierraphoto {
+    height: 260px;
+    width: 215px;
+    display: inline-block;
+    vertical-align:top;
+    text-align: center;
+    position: relative;
+}
+.sierrasubtext{
+    margin-top: 20px;
+
+}
+/*end sierra miller*/
+
+/*start wetdreams*/
+.articlewetdreams {
+    height: fit-content;
+    opacity: 1;
+    background-color:rgba(255,255,255,0.9);
+}
+.chgall, picture{
+    padding: 0;
+    margin: 0;
+    height: 180px;
+}
+.ch1{width: 234px;}
+.ch2{width: 196px;}
+.ch3{width: 252px;}
+.ch4{width: 178px;}
+.ch5{width: 220px;}
+.ch6{width: 210px;}
+.ch7{width: 196px;}
+.ch8{width: 234px;}
+
+.articlewetdreams img:hover{
+    transform:scale(1.3);
+    transition-duration: 3s;
+}
+/*end wetdreams*/
+
+/*start boerentoren*/
+.articleboerentoren {
+    height: fit-content;
+    opacity: 1;
+    background-color:rgba(255,255,255,0.9);
+}
+.whitecollar {
+    padding-left: 1px;
+    padding-right: 1px;
+    margin-left: 1px;
+    margin-right: 1px;
+    float: left;
+    width: 215px;
+}
+.whitecopy {
+    padding-left: 1px;
+    padding-right: 1px;
+    margin-left: 1px;
+    margin-right: 1px;
+    float: right;
+    width: 215px;
+}
+.boerentoren img:hover {
+    transform:scale(1.3);
+    transition-duration: 2s;
+}
+
+/*end boerentoren*/
+
+/*start primordial soup*/
+.article1 {
+}
+/*end primordial soup*/
+
+/*start biography*/
+.article_bio {
+}
+/*end biography*/
+
+.websites img {
+    padding-left: 72px;
+}
+/*start of images in portfolio*/
+.gallery {
+    margin-top: 20px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+  }
+.gallery-item {
+    margin: 20px;
+    padding: 20px 20px 20px 20px;
+}
+.gallery-item img:hover {
+    transform:scale(1.5);
+    transition-duration: 3s;
+}
+/*end of images in portfolio*/
+
+
+
+/*start shop*/
+.shopportraits {
+    height: fit-content;
+    min-height: 0px;
+    opacity: 1;
+    background-color:rgba(255,255,255,0.9);
+}
+.shopexample{
+    text-align: center;
+}
+.shopsierrapaint {
+    height: 260px;
+    width: 215px;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+}
+.shopsierraphoto, .shoplubaburned, .shoplubapaint {
+    height: 260px;
+    width: 215px;
+    display: inline-block;
+    vertical-align:top;
+    text-align: center;
+    position: relative;
+}
+.sierrasubtext{
+    margin-top: 20px;
+
+}
+/*end shop*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*start of footer*/
+footer {
+    background-color: darkturquoise;
+    max-width: 100%;
+    border: 100px;   
+    clear: both;
+    text-align: center;
+    font-size: 80%;
+}
+.copyright {
+    padding: 6px;
+}
+/*end of footer*/
