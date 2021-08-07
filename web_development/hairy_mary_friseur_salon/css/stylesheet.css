@@ -1,0 +1,169 @@
+body {
+  background-image: url(../img/clou.jpg);
+  font-family: 'Quicksand', medium;
+  color: grey;
+}
+
+.wrapper {
+  background-color: transparent;
+  width: 800px;
+  margin: 0 auto;
+}
+
+/* navbar */
+nav {
+  background-color: aquamarine;
+  font-weight: bold;
+  padding: 0px 20px;
+  margin: 10px 0px 10px 0px;
+
+}
+nav button, nav input {
+  margin: 0px 5px;
+  background-color: aqua;
+  border: 1px solid transparent;
+  border-color: aquamarine;
+  font-weight: bold;
+  color: slategray;
+
+}
+nav button:hover {
+  border: 1px solid #777;}
+/* end navbar */
+
+
+h2, .headers {
+  color: lightslategrey;
+  text-shadow: 3px 3px 10px gray;
+  font-family: 'Sofia';
+  font-weight: 450;
+  font-size: 80px;
+  text-align: center;
+}
+
+#carousel {
+  margin-top: 30px;
+}
+
+.headers {
+  margin-top: 5px;
+  font-size: 40px;
+}
+
+/* three boxes with services */
+div.gallery:hover {
+  border: 1px solid #777;}
+div.gallery img {   
+  width: 200px;
+  height: 200px;}    
+div.desc {
+  padding: 10px;
+  text-align: center;}
+.gallery{
+  background-color: aquamarine;
+  width: 225px;
+  height: 260px;
+  padding: 10px 0px 0px 12px;
+  display: inline-block;
+}
+.g1 {
+  float: left;
+}
+.g2 {
+  margin-left: 7%;
+  margin-right: 7%;
+}
+.g3 {
+  float: right;
+}
+#ourservices{
+  width: 100%;
+}
+.desc{
+  font-weight: bold;
+  color: grey;}
+#free{
+  width: 35px;
+  height: 25px;}
+/* end three boxes with services*/
+
+/* form */   
+form, #appointmentfield {
+  width: 400px;
+  margin: 0 auto;
+  margin-left: 5%;
+  float: left;
+  font-weight: bold;
+  color: gray;
+}
+#appointmentfield .input {
+  display: inline;
+}
+.wider, #otherinfo{
+  height: 50px;
+  width: 250px;
+  font-weight: bold;
+  padding: 10px 10px 10px 5px;
+  margin: 10px 10px 10px 0px;
+}
+form button {
+  background-color: aqua;
+  border: 1px solid transparent;
+  font-weight: bold;
+  color: grey;
+}
+form button:hover {
+  border: 1px solid #777;
+}
+/* end form */   
+
+/* Table */
+table, td, tr, th{
+  background-color: aquamarine;
+  padding: 10px;
+  color: grey;
+}
+tr {
+  border: 1px solid grey;
+}
+
+table {
+  display: inline-block;
+  left: 500px;
+  top: 800px;}
+#table{
+  display: inline-block;}
+/* End Table */
+.card {
+  margin-top: 20px;
+}
+
+
+
+.contactgroup {
+  font-weight: bold;
+  font-size: 110%;
+  display: inline;
+}
+
+.contact {
+  width: 50%;
+  float: left;
+}
+
+.godapproves {
+  float: right;
+}
+
+image .godapproves {
+  margin-right: 0px;
+  padding-right: 0px;
+  float: right;
+  height: 200px;
+  width: 200px;
+}
+
+a:hover, button:hover {
+  text-decoration: none;
+}
+
